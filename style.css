@@ -1,0 +1,94 @@
+body{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+fieldset{
+    padding: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+    border: none;
+}
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.Welcome {
+    padding-bottom: 40px;
+    text-align: center;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: x-large;
+    background: rgb(126, 25, 193);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 46%, rgba(253,66,39,1) 84%, rgba(252,176,69,1) 100%);
+}
+
+.login {
+    padding-bottom: 100px;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: 0px 3px 6px rgba(228, 38, 13, 0.627)
+
+}
+.ck{
+    display: flex;
+    margin-left: 20px;
+}
+
+.login-header {
+    margin-left: 20px;
+    font-size: x-large;
+}
+
+.form-username {
+    margin-left: 20px;
+}
+
+.form-password {
+    margin-left: 20px;
+}
+
+.button {
+    margin-left: 20px;
+}
+
+.footer {
+    margin-left: 20px;
+}
+
+* [type='submit'] {
+        width: 90%;
+        height: 50px;
+        background-color: #6c5ce7;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+
+input.car {
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    font-size:large;
+    font-family: sans-serif;
+}
+
+.fpass{
+    margin-left: 100px; 
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .Welcome,
+    .login {
+        flex-basis: 100%;
+    }
+}
