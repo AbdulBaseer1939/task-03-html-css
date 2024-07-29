@@ -26,7 +26,7 @@ fieldset{
 }
 
 .login {
-    padding-bottom: 90px;
+    padding-bottom: 50px;
     width: 100%;
     font-family: sans-serif;
     background-color: #fff;
@@ -68,7 +68,7 @@ fieldset{
         background-color: #6c5ce7;
         color: #fff;
         border: none;
-        border-radius: 5px;
+        border-radius: 15px;
         font-size: 20px;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -86,12 +86,27 @@ input.car {
     margin-left: 100px; 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 420px) {
     .container {
+        margin-right: -50px;
         flex-direction: column;
+        margin-top: -50px;
     }
-    .Welcome,
-    .login {
-        flex-basis: 100%;
+    .Welcome {
+        font-size: 20px;
     }
+    .login-header{
+        font-size: 20px;
+     }
+    input.car {
+        width: 100%;
+    }
+
+.ck div{
+    font-size: 12px;
+}
+.button{
+    width: 80%;
+    margin-left: 100px;
+}
 }
